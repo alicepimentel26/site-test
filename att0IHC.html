@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cana de Açúcar - Mata Sul de Pernambuco</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background-color:#f5f5f5;
+      color:#333;
+      line-height:1.6;
+    }
+
+    header{
+      background: linear-gradient(135deg, #2e7d32, #81c784);
+      color:white;
+      text-align:center;
+      padding:60px 20px;
+    }
+
+    header h1{
+      font-size:3rem;
+      margin-bottom:15px;
+    }
+
+    header p{
+      font-size:1.2rem;
+      max-width:800px;
+      margin:auto;
+    }
+
+    nav{
+      background-color:#1b5e20;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#ffd54f;
+    }
+
+    .banner{
+      width:100%;
+      height:400px;
+      background-image:url('https://terramagna.com.br/wp-content/uploads/2022/05/cana-de-acucar-zoom-nos-entre-nos.png');
+      background-size:cover;
+      background-position:center;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+      padding:40px 0;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:30px;
+      color:#2e7d32;
+      font-size:2rem;
+    }
+
+    .content{
+      display:flex;
+      flex-wrap:wrap;
+      gap:30px;
+      align-items:center;
+      margin-bottom:50px;
+    }
+
+    .content img{
+      width:100%;
+      max-width:500px;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .text{
+      flex:1;
+      min-width:300px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:12px;
+      box-shadow:0 3px 8px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      background:#e8f5e9;
+    }
+
+    .card h3{
+      color:#1b5e20;
+      margin-bottom:10px;
+    }
+
+    footer{
+      background:#1b5e20;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:2rem;
+      }
+
+      .content{
+        flex-direction:column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Produção de Cana de Açúcar</h1>
+    <p>
+      A importância da cana de açúcar para a economia e cultura da Mata Sul de Pernambuco.
+    </p>
+  </header>
+
+  <nav>
+    <a href="#historia">História</a>
+    <a href="#producao">Produção</a>
+    <a href="#economia">Economia</a>
+    <a href="#galeria">Galeria</a>
+  </nav>
+
+  <div class="banner"></div>
+
+  <section class="container" id="historia">
+    <h2 class="section-title">História da Cana na Mata Sul</h2>
+
+    <div class="content">
+      <img src="https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2020/12/cana-de-acucar.jpeg" alt="Plantação de cana">
+
+      <div class="text">
+        <p>
+          A região da Mata Sul de Pernambuco possui uma longa tradição na produção de cana de açúcar,
+          sendo uma das áreas mais importantes do Nordeste brasileiro. Desde o período colonial,
+          os engenhos de açúcar impulsionaram a economia local e marcaram a cultura da região.
+        </p>
+
+        <br>
+
+        <p>
+          Atualmente, a produção continua sendo fundamental para milhares de famílias,
+          gerando empregos e fortalecendo o setor sucroalcooleiro.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="producao">
+    <h2 class="section-title">Etapas da Produção</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3> Plantio</h3>
+        <p>
+          O cultivo da cana começa com o preparo do solo e o plantio das mudas em áreas férteis.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3> Crescimento</h3>
+        <p>
+          O clima quente e úmido da Mata Sul favorece o desenvolvimento da plantação.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3> Colheita</h3>
+        <p>
+          A colheita pode ser manual ou mecanizada, dependendo da estrutura da usina.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3> Industrialização</h3>
+        <p>
+          A cana é transformada em açúcar, etanol e outros derivados importantes.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container" id="economia">
+    <h2 class="section-title">Importância Econômica</h2>
+
+    <div class="content">
+
+      <div class="text">
+        <p>
+          A produção de cana de açúcar movimenta a economia da Mata Sul pernambucana,
+          contribuindo para exportações, geração de renda e desenvolvimento regional.
+        </p>
+
+        <br>
+
+        <p>
+          Além da produção de açúcar, o etanol se destaca como uma alternativa energética
+          renovável e sustentável.
+        </p>
+      </div>
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScoxeHoMYL3M5Ehw1Ghhcl_ciLT9uxjEADBg&s" alt="Usina de açúcar">
+
+    </div>
+  </section>
+
+  </section>
+
+  <footer>
+    <p>
+      © 2026 - Site Educativo sobre a Cana de Açúcar na Mata Sul de Pernambuco
+    </p>
+  </footer>
+
+</body>
+</html>
